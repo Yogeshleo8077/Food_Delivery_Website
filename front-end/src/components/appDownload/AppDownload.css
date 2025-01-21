@@ -1,0 +1,30 @@
+.app-download {
+    margin: auto auto;
+    margin-top: 100px;
+    font-weight: 500;
+    text-align: center;
+    font-size: max(3vw, 20px);
+}
+
+.app-download-platforms {
+    display: flex;
+    justify-content: center;
+    gap: max(5vw, 10px);
+    margin-top: 40px;
+}
+
+.app-download-platforms .react-icons {
+    font-size: 90px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.app-download-platforms .react-icons:hover {
+    color: tomato;
+    transform: scale(1.05);
+
+}
+
+.app-download span {
+    color: tomato;
+}
